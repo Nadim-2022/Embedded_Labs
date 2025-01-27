@@ -1,0 +1,35 @@
+"C:\Program Files\JetBrains\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\Embedded_projects\Dimmer_with_rotary -B D:\Embedded_projects\Dimmer_with_rotary\cmake-build-debug
+Using PICO_SDK_PATH from environment ('D:/win/Pico/pico-sdk')
+PICO_SDK_PATH is D:/win/Pico/pico-sdk
+Defaulting PICO_PLATFORM to rp2040 since not specified.
+Defaulting PICO platform compiler to pico_arm_gcc since not specified.
+PICO compiler is pico_arm_gcc
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- The ASM compiler identification is GNU
+-- Found assembler: D:/win/Pico/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/win/Pico/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/win/Pico/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Build type is Debug
+Using regular optimized debug build (set PICO_DEOPTIMIZED_DEBUG=1 to de-optimize)
+Defaulting PICO target board to pico since not specified.
+Using board configuration from D:/win/Pico/pico-sdk/src/boards/include/boards/pico.h
+-- Found Python3: C:/Users/iamna/AppData/Local/Programs/Python/Python39/python.exe (found version "3.9.13") found components: Interpreter 
+TinyUSB available at D:/win/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040; enabling build support for USB.
+Compiling TinyUSB with CFG_TUSB_DEBUG=1
+BTstack available at D:/win/Pico/pico-sdk/lib/btstack
+cyw43-driver available at D:/win/Pico/pico-sdk/lib/cyw43-driver
+Pico W Bluetooth build support available.
+lwIP available at D:/win/Pico/pico-sdk/lib/lwip
+mbedtls available at D:/win/Pico/pico-sdk/lib/mbedtls
+-- Configuring done (5.7s)
+-- Generating done (0.7s)
+-- Build files have been written to: D:/Embedded_projects/Dimmer_with_rotary/cmake-build-debug
